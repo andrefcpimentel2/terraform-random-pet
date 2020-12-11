@@ -1,3 +1,6 @@
+terraform {
+  required_version = ">= 0.12"
+}
 
 variable "pet_name_length" {
   default = "4"
