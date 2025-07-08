@@ -3,7 +3,6 @@ terraform {
 }
 
 variable "pet_name_length" {
-  default = "10"
 }
 
 resource "random_pet" "pet_name" {
